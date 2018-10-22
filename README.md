@@ -74,3 +74,7 @@ photo system certificat
 Maintenant je peux me login et push des images dans le registre via mon utilisateur zweeking.
 
 photo docker login/tag/push
+
+Pour push sur le registre, il faut dfférencier celui-ci de gitlab.com. Il faut donc soit changer le port du registry (solution sale) ou alors allouer un sous-domaine auto-signée pour le registre et faire une modification de la conf nginx. (genre if tata alors tel redirection, if toto tel redirection)
+
+photos confs nginx
